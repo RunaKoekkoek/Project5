@@ -1,0 +1,1 @@
+Dit was een opdracht van school waarin we 1 game moesten kiezen en daarvan een pagina moesten maken voor vershillende gaming platforms. Ik heb de Nintendo pagina gemaakt en meegewerkt aan de homepagina.
