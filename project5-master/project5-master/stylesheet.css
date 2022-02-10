@@ -1,0 +1,189 @@
+/*
+    created: 21-11-2019, 11:31
+    author : Tom Schoon
+    last update 25-11-2019
+*/
+
+/*dit is de root waar de standaard achtergronden geregeld in werken*/
+
+:root{
+  --colorOfNintendo: 	 #e4000f;/*nintendo red*/
+  --colorOfXbox      	:#0e7a0d;/*Xbox Green*/
+  --ColorOfIndex		:#FF0000;/*Index*/
+  --ColorOfPC			:#B0E0E6;/*PC*/
+}
+
+/*hier is het lettertype veranderd*/
+body{
+    background: whitesmoke;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+
+/*hier word alles van de navigatie bar geregeld*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	/*Voeg een achtergrond kleur toe*/
+    background-color: rgb(0, 0, 0);
+    position: -webkit-sticky;
+    position: none;
+    top: 0;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Russo One', sans-serif; 
+}
+  
+li {
+	/*Floating naar de linker kant, en pas een font lettertype toe*/
+    float: left;
+    font-family: 'Changa', sans-serif;
+}
+  
+li a {
+    display: block;
+	/*Kleur naar wit, padding naar 14 en 16 pixels.*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+	/*Wanneer je met je muis eroverheen gaat, geef het een kleurtje.*/
+	background-color: #b9d5fd;
+}
+
+#logo{ /*styling voor het logo in de navbar*/
+    float: left;
+	/*Hoogte & Breedte*/
+    width: 95px;
+    height: 58px;
+	/*Achtergrond kleur*/
+    background-color: rgb(168, 168, 168);
+}
+  
+.nintendopage{/*speciale styling voor Nintendo*/
+	/*Hier wordt de opmaak van de Nintendo pagina getoont, voornamelijk de achtergrond kleur.*/
+    background-color: var(--colorOfNintendo) ;
+    background: rgb(228,0,15);
+    background: -moz-linear-gradient(180deg, rgba(228,0,15,1) 0%, rgba(255,255,255,1) 50%);
+    background: -webkit-linear-gradient(180deg, rgba(228,0,15,1) 0%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(180deg, rgba(228,0,15,1) 0%, rgba(255,255,255,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endColorstr="#ffffff",GradientType=1);
+
+}
+
+/*background voor de flavor tekst*/
+  .flavortext
+{
+  background-color: rgb(156, 156, 156);
+}
+
+HEAD
+
+.ps4page{ /*speciale styling voor Ps4*/
+	/*Hier wordt de opmaak van de PS4 pagina getoont, voornamelijk de achtergrond kleur.*/
+	background-color: var(--colorOfps4); 
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,35,102,1) 100%);
+}
+
+.flavortext{
+  background-color: aliceblue;
+}
+
+/*background van de pagina xbox*/
+.xboxpage{
+	/*Hier wordt de opmaak van de xbox pagina getoont, voornamelijk de achtergrond kleur.*/
+	background-color: var(--colorOfXbox);
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(91,218,97,1) 100%);;
+}
+
+/*de background van de footer*/
+.footercolor{
+	background-color: black;
+}
+
+.flavortext{
+	background-color: aliceblue;
+}
+
+.center-container{
+	/*Wordt gebruikt voor het centreren van tekst en tabellen.*/
+	width: 1024px;
+	position: relative;
+	margin: 0px auto;
+	font-family: arial;
+}
+  
+/*background van de index*/
+.indexPage{
+	/*Hier wordt de opmaak van de Index pagina getoont, voornamelijk de achtergrond kleur.*/
+	background-color: var(ColorOfIndex);
+	background: rgb(225,225,225);
+	background: linear-gradient(0deg, rgba(225,225,225,1) 0%, rgba(255,55,55,1) 100%);
+}
+
+/*background van de pc*/
+.pcPagina{
+	/*Hier wordt de opmaak van de PC pagina getoont, voornamelijk de achtergrond kleur.*/
+	background-color: var(--ColorOfPC);
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(135,206,250,1) 100%);
+}
+
+.center-container{
+	width: 1024px;
+	position: relative;
+	margin: 0px auto;
+}
+
+span.a {
+	display: block; /* the default for span */
+	width: 80%;
+	height: 30%;
+	padding: 5px;
+	border: 1px solid gainsboro;  
+	background-color: rgba(245, 245, 245, 0.459); 
+}
+
+span.b {
+	display: block; /* the default for span */
+	width: 30%;
+	height: 30%;
+	padding: 5px;
+	border: 1px solid gainsboro;  
+	background-color: rgba(245, 245, 245, 0.459); 
+}
+span.c {
+	display: block; /* the default for span */
+	width: 40%;
+	height: 100%;
+	padding: 5px;
+	border: 1px solid gainsboro;  
+	background-color: rgba(245, 245, 245, 0.459);
+}
+
+.ps4page {
+	/*Hier wordt de opmaak van de PS4 pagina getoont, voornamelijk de achtergrond kleur.*/
+	background-color: #003791;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 100%);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 100%);
+	/*Voeg een filter toe*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#003791",GradientType=1);
+}
+
+.weetje{
+  border: 2px;
+  background: rgba(255,255,255,1);
+}
+
+.checked {
+	/*Dit zet de kleur naar oranje.*/
+	color: orange;
+}
